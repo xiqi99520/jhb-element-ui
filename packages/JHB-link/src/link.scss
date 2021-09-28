@@ -1,0 +1,26 @@
+#jhb-link {
+  &.el-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    &.el-link--default,
+    &.el-link--primary {
+      color: $link-primary-bg-color;
+      &:hover {
+        color: $link-primary-hover-color;
+      }
+    }
+    &.el-link--success {
+      color: $link-success-bg-color;
+      &:hover {
+        color: $link-success-hover-color;
+      }
+    }
+    &.el-link--danger {
+      color: $link-danger-bg-color;
+      &:hover {
+        color: $link-danger-hover-color;
+      }
+    }
+  }
+}

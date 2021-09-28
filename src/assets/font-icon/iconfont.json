@@ -1,0 +1,86 @@
+{
+  "id": "1452203",
+  "name": "test2",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15047001",
+      "name": "加号",
+      "font_class": "addTodo-nav",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7669950",
+      "name": "加号",
+      "font_class": "Add_bule",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11091457",
+      "name": "大暴雨",
+      "font_class": "dabaoyu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11091458",
+      "name": "大雨",
+      "font_class": "dayu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "11091459",
+      "name": "暴雪",
+      "font_class": "baoxue",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11091460",
+      "name": "大雪",
+      "font_class": "daxue",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9214980",
+      "name": "播放记录_line",
+      "font_class": "bofangjilu",
+      "unicode": "e874",
+      "unicode_decimal": 59508
+    },
+    {
+      "icon_id": "9214981",
+      "name": "分享_line",
+      "font_class": "fenxiang",
+      "unicode": "e875",
+      "unicode_decimal": 59509
+    },
+    {
+      "icon_id": "9214982",
+      "name": "点赞_line",
+      "font_class": "dianzan",
+      "unicode": "e873",
+      "unicode_decimal": 59507
+    },
+    {
+      "icon_id": "9214983",
+      "name": "电影票_line",
+      "font_class": "dianyingpiao",
+      "unicode": "e876",
+      "unicode_decimal": 59510
+    },
+    {
+      "icon_id": "9214984",
+      "name": "话题_line",
+      "font_class": "huati",
+      "unicode": "e877",
+      "unicode_decimal": 59511
+    }
+  ]
+}

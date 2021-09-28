@@ -1,0 +1,10 @@
+#jhb-color-picker {
+  .el-color-picker__trigger {
+    width: $height;
+    height: $height;
+    border-color: $colorPicker-border-color;
+  }
+  .el-color-picker__color {
+    border-color: $colorPicker-font-active-color;
+  }
+}

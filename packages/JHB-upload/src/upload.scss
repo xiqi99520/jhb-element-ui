@@ -1,0 +1,51 @@
+#jhb-upload {
+  &.avatar-uploader .el-upload {
+    border: 1px dashed $upload-border-color;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &.avatar-uploader.disabled .el-upload:hover {
+    border: 1px dashed $upload-border-color;
+  }
+  &.avatar-uploader .el-upload:hover {
+    border-color: $upload-active-font-color;
+  }
+  .avatar-uploader-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+  }
+  &.avatar-uploader.disabled .avatar-uploader-icon {
+    background-color: $upload-disabled-bg-color;
+    cursor: not-allowed;
+  }
+
+  &.avatar-uploader.disabled .avatar-uploader-icon i {
+    color: $upload-disabled-font-color;
+  }
+  .avatar-uploader-icon i {
+    font-size: 14px;
+    color: $upload-active-font-color;
+  }
+  &.avatar-uploader.disabled .avatar-uploader-icon span {
+    color: $upload-disabled-font-color;
+  }
+  .avatar-uploader-icon span {
+    color: $upload-active-font-color;
+  }
+  .avatar-uploader-icon span {
+    margin-top: 6px;
+    font-size: 11px;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    display: block;
+  }
+}

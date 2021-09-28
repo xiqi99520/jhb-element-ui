@@ -1,0 +1,67 @@
+#jhb-steps {
+  .is-success {
+    .el-step__icon.is-text {
+      border-color: $step-active-color;
+      color: $step-active-color;
+    }
+  }
+
+  .el-step .el-step__title {
+    line-height: $step-line-height-title;
+    font-size: $step-font-size-title;
+    font-weight: $step-font-weight-title;
+    &.is-success {
+      color: $step-font-title-color;
+    }
+    &.is-process {
+      color: $step-font-title-active-color;
+    }
+    &.is-wait {
+      color: $step-font-title-disabled-color;
+    }
+  }
+  .el-step__description {
+    font-size: $step-font-size-desc;
+    line-height: $step-line-height-desc;
+    &.is-success {
+      color: $step-font-title-color;
+    }
+    &.is-process {
+      color: $step-font-title-active-color;
+    }
+    &.is-wait {
+      color: $step-font-title-disabled-color;
+    }
+  }
+  .el-step__head {
+    .el-step__icon.is-text {
+      font-size: $font-size;
+      font-weight: 500;
+    }
+    .el-step__line {
+      background-color: $step-bg-color;
+    }
+    &.is-success {
+      .el-step__line {
+        background-color: $step-bg-active-color;
+      }
+      .el-step__line-inner {
+        border-color: $step-bg-active-color;
+      }
+    }
+    &.is-process {
+      .el-step__icon.is-text {
+        color: $step-font-active-color;
+        border-color: $step-bg-active-color;
+        background-color: $step-bg-active-color;
+      }
+    }
+    &.is-wait {
+      .el-step__icon.is-text {
+        color: $step-font-color;
+        border-color: $step-bg-color;
+        background-color: $step-bg-color;
+      }
+    }
+  }
+}

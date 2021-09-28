@@ -1,0 +1,20 @@
+#jhb-switch {
+  + .el-switch__core {
+    height: $switch-height;
+    border-radius: 8px;
+    width: 32px;
+    &:after {
+      width: $switch-height-icon;
+      height: $switch-height-icon;
+    }
+  }
+}
+.el-switch {
+  line-height: $switch-height;
+  &.is-disabled {
+    opacity: 0.2;
+  }
+}
+.el-switch.is-checked .el-switch__core::after {
+  margin-left: -13px;
+}

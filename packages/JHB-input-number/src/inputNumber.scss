@@ -1,0 +1,78 @@
+#jhb-inputNumber {
+  &.error {
+    .el-input__inner {
+      height: $height;
+      line-height: $height;
+      border-color: $inputNumber-border-error-color;
+      color: $inputNumber-font-error-color;
+    }
+    .el-input.is-active .el-input__inner,
+    .el-input__inner:focus {
+      border-color: $inputNumber-border-error-color;
+    }
+
+    .el-input__inner:hover {
+      border-color: $inputNumber-border-error-color;
+    }
+  }
+  .el-input__inner {
+    border-color: $inputNumber-border-color;
+    color: $inputNumber-font-color;
+    height: $height;
+    line-height: $height;
+  }
+  .el-input-number__decrease.is-disabled,
+  .el-input-number__increase.is-disabled {
+    color: $inputNumber-font-disabled-color;
+    &:hover {
+      color: $inputNumber-font-disabled-color;
+    }
+  }
+  &.el-input-number {
+    line-height: 30px;
+  }
+  .el-input-number__decrease,
+  .el-input-number__increase {
+    width: 32px;
+    font-size: 10px;
+  }
+  .el-input.is-active .el-input__inner,
+  .el-input__inner:focus {
+    border-color: $inputNumber-border-focus-color;
+  }
+
+  .el-input-number__decrease:hover,
+  .el-input-number__increase:hover {
+    color: $inputNumber-font-focus-color;
+  }
+  .el-input__inner:hover {
+    border-color: $inputNumber-border-focus-color;
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: $inputNumber-bg-disabled-color;
+    border-color: $inputNumber-border-color;
+    color: $inputNumber-font-disabled-color;
+  }
+  .el-input-number.is-controls-right[class*="medium"] [class*="increase"] {
+    line-height: 15px;
+  }
+  .el-input-number.is-controls-right .el-input-number__increase {
+    line-height: 15px;
+  }
+  .el-input-number.is-controls-right .el-input-number__decrease {
+    bottom: 1px;
+  }
+  &.updown .el-icon-plus:before {
+    content: "\E78F";
+  }
+
+  &.updown .el-icon-minus:before {
+    content: "\E790";
+  }
+  &.updown .el-icon-arrow-up:before {
+    content: "\E78F";
+  }
+  &.updown .el-icon-arrow-down:before {
+    content: "\E790";
+  }
+}

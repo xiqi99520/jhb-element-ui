@@ -1,0 +1,78 @@
+#jhb-tag {
+  &.el-tag {
+    background-color: $tag-bg-color;
+    color: $tag-font-color;
+    border-width: 0px;
+    font-size: $tag-font-size;
+    height: $tag-height;
+    line-height: $tag-height;
+    .el-tag__close {
+      color: $tag-font-icon-color;
+      font-weight: $tag-font-weight-icon;
+      &:hover {
+        color: $tag-font-hover-color;
+        background-color: $tag-bg-hover-color;
+      }
+    }
+    &.el-tag--dark {
+      background-color: $tag-bg-hover-color;
+      color: $tag-font-hover-color;
+      &.el-tag--success {
+        background-color: $tag-bg-success-color;
+      }
+      &.el-tag--info {
+        background-color: $tag-bg-info-color;
+        color: $tag-info-font-hover-color;
+      }
+      &.el-tag--warning {
+        background-color: $tag-bg-warn-color;
+      }
+      &.el-tag--danger {
+        background-color: $tag-bg-error-color;
+      }
+      &.el-tag--other {
+        background-color: $tag-bg-other-color;
+      }
+    }
+    &.el-tag--plain {
+      background-color: $tag-bg-plain-default-color;
+      color: $tag-font-plain-default-color;
+      &.el-tag--success {
+        background-color: $tag-bg-plain-success-color;
+        color: $tag-font-plain-success-color;
+      }
+      &.el-tag--info {
+        background-color: $tag-bg-plain-info-color;
+        color: $tag-font-plain-info-color;
+      }
+      &.el-tag--warning {
+        background-color: $tag-bg-plain-warn-color;
+        color: $tag-font-plain-warn-color;
+      }
+      &.el-tag--danger {
+        background-color: $tag-bg-plain-error-color;
+        color: $tag-font-plain-error-color;
+      }
+      &.el-tag--other {
+        background-color: $tag-bg-plain-other-color;
+        color: $tag-font-plain-other-color;
+      }
+    }
+  }
+  &.el-tag.el-tag--info {
+    background-color: $tag-info-bg-color;
+    color: $tag-info-font-color;
+    border-width: 0px;
+    font-size: $tag-font-size;
+    height: $tag-height;
+    line-height: $tag-height;
+    .el-tag__close {
+      color: $tag-info-font-icon-color;
+      font-weight: $tag-font-weight-icon;
+      &:hover {
+        color: $tag-info-font-hover-color;
+        background-color: $tag-info-bg-hover-color;
+      }
+    }
+  }
+}

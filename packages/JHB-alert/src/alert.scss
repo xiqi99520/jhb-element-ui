@@ -1,0 +1,77 @@
+#jhb-alert {
+  .el-alert__icon {
+    font-size: 14px;
+    width: 14px;
+    margin-top: 4px;
+  }
+  .el-alert__title {
+    font-size: $font-size;
+    font-weight: $font-weight;
+  }
+  .el-alert__title.is-bold {
+    font-weight: 500;
+  }
+  &.el-alert--success.is-light {
+    background-color: $alert-success-bg-color;
+    color: $alert-success-font-color;
+    .el-alert__closebtn {
+      color: $alert-success-font-color;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .el-alert__description {
+      color: $alert-success-font-color;
+    }
+  }
+  &.el-alert--info.is-light {
+    background-color: $alert-info-bg-color;
+    color: $alert-info-font-color;
+    .el-alert__closebtn {
+      color: $alert-info-font-color;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .el-alert__description {
+      color: $alert-info-font-color;
+    }
+  }
+  &.el-alert--default.is-light {
+    background-color: $alert-default-bg-color;
+    color: $alert-default-font-color;
+    .el-alert__closebtn {
+      color: $alert-default-font-color;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .el-alert__description {
+      color: $alert-default-font-color;
+    }
+  }
+  &.el-alert--warning.is-light {
+    background-color: $alert-warning-bg-color;
+    color: $alert-warning-font-color;
+    .el-alert__closebtn {
+      color: $alert-warning-font-color;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .el-alert__description {
+      color: $alert-warning-font-color;
+    }
+  }
+  &.el-alert--error.is-light {
+    background-color: $alert-error-bg-color;
+    color: $alert-error-font-color;
+    b .el-alert__closebtn {
+      color: $alert-error-font-color;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .el-alert__description {
+      color: $alert-error-font-color;
+    }
+  }
+  &.el-alert {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,93 @@
+#jhb-time-select,
+#jhb-date-picker,
+#jhb-time-picker {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  display: flex;
+  align-items: center;
+  .require-mark {
+    margin-right: 3px;
+    height: $height;
+    line-height: $height;
+    color: $time-font-color;
+    .show-required-error {
+      padding: 0 2px;
+      color: $error-color;
+      font-style: normal;
+    }
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: $time-bg-disabled-color;
+    border-color: $time-border-color;
+    color: $time-disabled-color;
+  }
+  .el-input__inner {
+    height: $height;
+    line-height: $height;
+    border-color: $time-border-color;
+    color: $time-font-color;
+    &::placeholder {
+      color: $time-font-placeholder-color;
+      font-size: 12px;
+    }
+    &:hover {
+      border-color: $time-active-color;
+    }
+  }
+  .el-input.is-disabled .el-input__icon {
+    line-height: $height;
+    color: $time-disabled-color;
+  }
+  .el-input__icon {
+    height: $height;
+    line-height: $height;
+    color: $time-font-icon-color;
+  }
+  .el-input.is-active .el-input__inner,
+  .el-input__inner:focus {
+    border-color: $time-active-color;
+  }
+}
+
+.el-time-panel__btn.confirm {
+  color: $time-active-color;
+}
+.el-date-table td.today span {
+  color: $time-bg-icon-color;
+  background-color: $time-active-color;
+  border-radius: 50%;
+}
+.el-date-table td span {
+  width: $height;
+  height: $height;
+  line-height: $height;
+  &:hover {
+    background-color: $time-bg-icon-color;
+    color: $time-active-color;
+    border-radius: 50%;
+  }
+}
+.el-picker-panel {
+  color: $time-font-color;
+  font-size: $font-size;
+  font-weight: 500;
+}
+.el-date-table td.next-month,
+.el-date-table td.prev-month {
+  color: $time-disabled-color;
+  font-size: $font-size;
+  font-weight: 500;
+}
+.el-date-table td.end-date span,
+.el-date-table td.start-date span {
+  background-color: $time-active-color;
+  color: $time-bg-icon-hover-color;
+}
+.el-date-table td.current:not(.disabled) span {
+  color: $time-active-color;
+  background-color: $time-bg-icon-hover-color;
+}
+.el-date-table td,
+.el-date-table td div {
+  height: 34px;
+}
