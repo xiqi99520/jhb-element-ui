@@ -1,3 +1,4 @@
 - 技能池
-  - [snipperts - 局部功能工具库](http://jhb-element-ui.juheba.top:8888/snippets/index.html)
-  - [standard - 好习惯](http://jhb-element-ui.juheba.top:8888/standard/index.html)
+  - [snipperts - 局部功能工具库](http://jhb-element-ui.juheba.top:8888/snippets/index.html ':target=_self')
+  - [standard - 好习惯](http://jhb-element-ui.juheba.top:8888/standard/index.html ':target=_self')
+  - [directives - vue自定义指令库](http://jhb-element-ui.juheba.top:8888/directives/index.html ':target=_self')

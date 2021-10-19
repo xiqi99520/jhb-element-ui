@@ -1,5 +1,5 @@
 # 快速上手   
-- [快速预览](http://jhb-element-ui.juheba.top:8888/jhb-element/#/)
+- [快速预览](http://jhb-element-ui.juheba.top:8888/jhb-element/#/ ':target=_self')
 
 ## Introduce
 > jhb-Element-UI, 一个神奇的UI组件, 由一群神秘的小伙伴开发完成
